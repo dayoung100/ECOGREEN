@@ -30,7 +30,7 @@ for i in img:
         imgurl.append(i.attrs["data-src"])
 
 for i in imgurl:
-    urlretrieve(i, "크롤링사진/"+search+str(n)+".jpg") #크롤링사진이라는 폴더 미리 생성해두어야
+    urlretrieve(i, "images/"+search+str(n)+".jpg") #같은 폴더에 images라는 폴더 미리 생성해두어야
     n += 1
     print(imgurl)
     if(n==120): #120개로 제한
