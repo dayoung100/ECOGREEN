@@ -78,7 +78,8 @@ https://developers.google.com/ar/develop/unity/quickstart-android
 https://developers.google.com/ar/develop/unity/tutorials/hello-ar-sample    
 - AR Measure | Camera | Unity Asset Store    
 https://assetstore.unity.com/packages/tools/camera/ar-measure-145104       
-- AR Core Ruler - Master ARCore 1.3 Unity SDK - Build 6 Augmented Reality Apps [Video] 
+- AR Core Ruler - Master ARCore 1.3 Unity SDK - Build 6 Augmented Reality Apps    
+https://subscription.packtpub.com/video/application_development/9781789537413/70319/70320/ar-core-ruler    
 - Android Studio(패스트캠퍼스 온라인 강의 - 올인원 패키지: 모바일 앱 개발)    
 https://github.com/changja88
 
