@@ -11,7 +11,7 @@
 https://github.com/dayoung100/ECOGREEN
 
 ## 프로젝트 레포지토리 정리
-https://github.com/hyojin2/Android-Studio : android studio UI 구현  
+https://github.com/hyojin2/Android-Studio : android studio UI 구현  <br/><br/>
  
 ## Technology TODO   
 ### [Android Studio]
@@ -24,12 +24,12 @@ https://github.com/hyojin2/Android-Studio : android studio UI 구현
 (*앱이 많이 무거워지는 경우 flask나 Django를 통한 웹서버 구축 및 웹서버에 올려서 활용 예정)  
 - [ ] AR - virtual ruler 연동  
 - [ ] UI 개선  
-- [ ] 앱 최적화  
+- [ ] 앱 최적화  <br/><br/>
     
     
 ## Reference
 - Android Studio(패스트캠퍼스 온라인 강의 - 올인원 패키지: 모바일 앱 개발)    
-https://github.com/changja88
+https://github.com/changja88  <br/><br/>
 
    
 
@@ -38,7 +38,7 @@ https://github.com/changja88
 Firebase 프로젝트 생성: https://jeeny-yap.tistory.com/9   
 Firebase 프로젝트 연결: https://jeeny-yap.tistory.com/10   
 Firebase를 활용한 인증 구현 및 계정설정 기능: https://jeeny-yap.tistory.com/12   
-메인 홈 화면 및 DISUSE 화면 구성: https://jeeny-yap.tistory.com/13   
+메인 홈 화면 및 DISUSE 화면 구성: https://jeeny-yap.tistory.com/13   <br/><br/>
 
 
 ## 오픈소스 라이선스
