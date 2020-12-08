@@ -37,7 +37,7 @@ https://github.com/chuckchuck-gojol/mjungWorkSpace : android studio UI 구현
 7. 해당 리스트를 바탕으로 한 신고필증 작성 및 pdf 제공
  
 ## 프로젝트 예상 아키텍처
-
+![Uploading Screen Shot 2020-12-08 at 7.44.35 PM.png…]()
  
 ## Technology TODO  
 ### [Deep Learning]
@@ -78,33 +78,31 @@ AR Core Ruler - Master ARCore 1.3 Unity SDK - Build 6 Augmented Reality Apps [Vi
 Android Studio(패스트캠퍼스 온라인 강의 - 올인원 패키지: 모바일 앱 개발)
 https://github.com/changja88
 
-
+   
 
 ## 기술블로그
 ### [Deep Learning]
-이미지 데이터로 사용할 장롱 이미지 웹크롤링 : https://syeong622.tistory.com/2
-이미지 데이터 프로세싱 : https://syeong622.tistory.com/3
-CNN 모델 설명 : https://syeong622.tistory.com/4
-장롱 이미지 데이터셋으로 CNN 모델을 학습 후 테스트 데이터로 평가 : https://syeong622.tistory.com/5
+이미지 데이터로 사용할 장롱 이미지 웹크롤링 : https://syeong622.tistory.com/2 
+이미지 데이터 프로세싱 : https://syeong622.tistory.com/3   
+CNN 모델 설명 : https://syeong622.tistory.com/4   
+장롱 이미지 데이터셋으로 CNN 모델을 학습 후 테스트 데이터로 평가 : https://syeong622.tistory.com/5   
 
 
 ### [AR: Virtual Ruler]
-유니티에서 ARCore 시작하기: https://iszero-tech.tistory.com/1
-HelloAR: https://iszero-tech.tistory.com/2
-AR Ruler①: https://iszero-tech.tistory.com/3
-AR Ruler②: https://iszero-tech.tistory.com/4
-Virtual Ruler 중간정리: https://iszero-tech.tistory.com/5
+유니티에서 ARCore 시작하기: https://iszero-tech.tistory.com/1   
+HelloAR: https://iszero-tech.tistory.com/2   
+AR Ruler①: https://iszero-tech.tistory.com/3   
+AR Ruler②: https://iszero-tech.tistory.com/4   
+Virtual Ruler 중간정리: https://iszero-tech.tistory.com/5   
 
 
 ### [Android Studio]
-Firebase 프로젝트 생성: https://jeeny-yap.tistory.com/9
-Firebase 프로젝트 연결: https://jeeny-yap.tistory.com/10
-Firebase를 활용한 인증 구현 및 계정설정 기능: https://jeeny-yap.tistory.com/12
-메인 홈 화면 및 DISUSE 화면 구성: https://jeeny-yap.tistory.com/13
+Firebase 프로젝트 생성: https://jeeny-yap.tistory.com/9   
+Firebase 프로젝트 연결: https://jeeny-yap.tistory.com/10   
+Firebase를 활용한 인증 구현 및 계정설정 기능: https://jeeny-yap.tistory.com/12   
+메인 홈 화면 및 DISUSE 화면 구성: https://jeeny-yap.tistory.com/13   
 
 
 ## 오픈소스 라이선스
-BSD
 Apache
-GNU 
-GPL
+
