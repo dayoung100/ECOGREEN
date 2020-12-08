@@ -1,5 +1,5 @@
 # ECOGREEN
- 캡스톤디자인 프로젝트 에코그린
+ 캡스톤디자인 프로젝트 에코그린<br/><br/>
  
 # 에코그린 유튜브 채널
  
@@ -11,7 +11,7 @@
 https://github.com/dayoung100/ECOGREEN
 
 ## 프로젝트 레포지토리 정리
-https://github.com/hyojin2/Android-Studio : android studio UI 구현   <br/><br/>
+ : 딥러닝 모델 구현   <br/><br/>
 
 ## Technology TODO  
 ### [Deep Learning]
