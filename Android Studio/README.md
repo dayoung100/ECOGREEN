@@ -12,7 +12,7 @@
 ## 에코그린 Organization
 https://github.com/dayoung100/ECOGREEN
 
-## 프로젝트 레포지토리 
+## 프로젝트 레포지토리 정리
 https://github.com/hyojin2/Android-Studio: android studio UI 구현   
 
 ## 프로젝트의 목적
