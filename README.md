@@ -11,10 +11,7 @@
 # 대형폐기물 배출 안내 어플리케이션
 ## 에코그린 Organization
 https://github.com/dayoung100/ECOGREEN
-## 프로젝트 레포지토리 정리
-https://github.com/chuckchuck-gojol/model1_fin : 모델 생성   
-https://github.com/chuckchuck-gojol/wiing-wiing : AR virtual ruler   
-https://github.com/chuckchuck-gojol/mjungWorkSpace : android studio UI 구현   
+
 ## 프로젝트의 목적
 이사/폐업/가구 교체 등의 상황에서 많은 대형폐기물이 발생하고 있으나 대형폐기물 배출요령에 대해서 정확히 파악하고 있는 경우는 드물다. 흔하게 경험할 수 있는 일이 아닐 뿐더러 절차가 복잡하고, 무엇보다 대형폐기물을 처리할 때 드는 수수료의 부과기준이 지역, 품목, 크기별로 달라 매번 찾아보기 번거롭기 때문이다.
 우리는 이러한 문제를 해결하기 위해 대형폐기물 배출 절차를 단순화 시켜줄 어플리케이션을 제작하고자 했다. 
@@ -37,7 +34,7 @@ https://github.com/chuckchuck-gojol/mjungWorkSpace : android studio UI 구현
 7. 해당 리스트를 바탕으로 한 신고필증 작성 및 pdf 제공
  
 ## 프로젝트 예상 아키텍처
-![Uploading Screen Shot 2020-12-08 at 7.44.35 PM.png…]()
+<img width="1792" alt="Screen Shot 2020-12-08 at 7 44 35 PM" src="https://user-images.githubusercontent.com/34567074/101474395-740bc600-398e-11eb-9cfb-a11eb3600723.png">
  
 ## Technology TODO  
 ### [Deep Learning]
@@ -104,5 +101,5 @@ Firebase를 활용한 인증 구현 및 계정설정 기능: https://jeeny-yap.t
 
 
 ## 오픈소스 라이선스
-Apache
+Apache License 2.0
 
