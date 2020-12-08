@@ -67,7 +67,7 @@ https://github.com/dayoung100/Virtual_Ruler : 간단한 Virtual Ruler 구현
 (*앱이 많이 무거워지는 경우 flask나 Django를 통한 웹서버 구축 및 웹서버에 올려서 활용 예정)  
 - [ ] AR - virtual ruler 연동  
 - [ ] UI 개선  
-- [ ] 앱 최적화  
+- [ ] 앱 최적화  <br/><br/>
     
     
 ## Reference
@@ -84,7 +84,7 @@ https://assetstore.unity.com/packages/tools/camera/ar-measure-145104
 - AR Core Ruler - Master ARCore 1.3 Unity SDK - Build 6 Augmented Reality Apps    
 https://subscription.packtpub.com/video/application_development/9781789537413/70319/70320/ar-core-ruler    
 - Android Studio(패스트캠퍼스 온라인 강의 - 올인원 패키지: 모바일 앱 개발)    
-https://github.com/changja88
+https://github.com/changja88<br/><br/>
 
    
 
