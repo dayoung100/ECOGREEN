@@ -1,6 +1,8 @@
 # AR_virtual ruler
  대형폐기물 배출 안내 어플리케이션  
- AR을 이용한 virtual ruler<br/><br/>
+ AR을 이용한 **virtual ruler**
+ 
+ 이 레포지토리에는 최신버전의 virtual ruler의 **apk파일**만 들어있다. 소스코드는 **Virtual_Ruler 레포지토리**에서 확인할 수 있다. 아래 프로젝트 레포지토리 정리 부분에 링크가 있으니 참고를 바란다.<br/><br/>
  
 # 에코그린 유튜브 채널
  
