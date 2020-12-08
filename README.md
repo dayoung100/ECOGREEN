@@ -4,7 +4,7 @@
 # 에코그린 유튜브 채널
  
 # 시연영상 링크
-에코그린 시연영상(DeepLearning + Virtual Ruler + UI) :   
+에코그린 시연영상(DeepLearning + Virtual Ruler + UI) :   <br/><br/>
  
 # 대형폐기물 배출 안내 어플리케이션
 ## 에코그린 Organization
@@ -12,7 +12,7 @@ https://github.com/dayoung100/ECOGREEN
 
 ## 프로젝트 레포지토리 정리
 https://github.com/hyojin2/Android-Studio : android studio UI 구현  
-https://github.com/dayoung100/Virtual_Ruler : 간단한 Virtual Ruler 구현
+https://github.com/dayoung100/Virtual_Ruler : 간단한 Virtual Ruler 구현<br/><br/>
 
 ## 프로젝트의 목적
 이사/폐업/가구 교체 등의 상황에서 많은 대형폐기물이 발생하고 있으나 대형폐기물 배출요령에 대해서 정확히 파악하고 있는 경우는 드물다. 흔하게 경험할 수 있는 일이 아닐 뿐더러 절차가 복잡하고, 무엇보다 대형폐기물을 처리할 때 드는 수수료의 부과기준이 지역, 품목, 크기별로 달라 매번 찾아보기 번거롭기 때문이다.
