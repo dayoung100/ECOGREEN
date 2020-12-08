@@ -66,7 +66,7 @@ https://github.com/hyojin2/Android-Studio : android studio UI 구현
 (*앱이 많이 무거워지는 경우 flask나 Django를 통한 웹서버 구축 및 웹서버에 올려서 활용 예정)  
 - [ ] AR - virtual ruler 연동  
 - [ ] UI 개선  
-    
+- [ ] 앱 최적화  
     
 ## Reference
 - 구글 이미지 웹크롤링    
