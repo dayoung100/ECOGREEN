@@ -42,6 +42,8 @@ https://github.com/dayoung100/ECOGREEN
 - [ ] 훈련 데이터셋 전처리 및 데이터 확대  
 - [ ] CNN 모델 구축 및 학습   
 - [ ] 모델평가  
+- [ ] 데이터 추가 수집
+- [ ] 정확도 개선
 
  
 ### [AR: virtual ruler] 
@@ -54,34 +56,41 @@ https://github.com/dayoung100/ECOGREEN
 - [ ] 유니티로 만든 앱을 최종 안드로이드 앱에 합치기  
  
 ### [Android Studio]
-- [ ] 데이터베이스 연결  
+- [ ] Firebase 연동 및 계정 설정 구현
+- [ ] 기본 화면 구성
+- [ ] 권한 얻어오기
+- [ ] 데이터베이스 연결   
 - [ ] 품목 분석 내역 보여주기, 분석한 내용에 맞는 수수료 안내 및 신고필증 작성 등 세부기능 구현  
 - [ ] 딥러닝 모델 tflite 이용하여 안드로이드 스튜디오에 올리기   
 (*앱이 많이 무거워지는 경우 flask나 Django를 통한 웹서버 구축 및 웹서버에 올려서 활용 예정)  
 - [ ] AR - virtual ruler 연동  
 - [ ] UI 개선  
     
- 
+    
 ## Reference
-구글 이미지 웹크롤링
+- 구글 이미지 웹크롤링    
 https://www.youtube.com/watch?v=1b7pXC1-IbE    
-케라스를 이용한 CNN 모델 구축
+- 케라스를 이용한 CNN 모델 구축    
 https://www.kaggle.com/bugraokcu/cnn-with-keras    
-Quickstart for Android | ARCore(https://developers.google.com/ar/develop/unity/quickstart-android)    
-Explore the HelloAR sample app code | ARCore(https://developers.google.com/ar/develop/unity/tutorials/hello-ar-sample)    
-AR Measure | Camera | Unity Asset Store(https://assetstore.unity.com/packages/tools/camera/ar-measure-145104)    
-AR Core Ruler - Master ARCore 1.3 Unity SDK - Build 6 Augmented Reality Apps [Video] 
-Android Studio(패스트캠퍼스 온라인 강의 - 올인원 패키지: 모바일 앱 개발)
+- Quickstart for Android | ARCore    
+https://developers.google.com/ar/develop/unity/quickstart-android    
+- Explore the HelloAR sample app code | ARCore    
+https://developers.google.com/ar/develop/unity/tutorials/hello-ar-sample    
+- AR Measure | Camera | Unity Asset Store    
+https://assetstore.unity.com/packages/tools/camera/ar-measure-145104       
+- AR Core Ruler - Master ARCore 1.3 Unity SDK - Build 6 Augmented Reality Apps    
+https://subscription.packtpub.com/video/application_development/9781789537413/70319/70320/ar-core-ruler    
+- Android Studio(패스트캠퍼스 온라인 강의 - 올인원 패키지: 모바일 앱 개발)    
 https://github.com/changja88
 
    
 
 ## 기술블로그
 ### [Deep Learning]
-이미지 데이터로 사용할 장롱 이미지 웹크롤링 : https://syeong622.tistory.com/2 
-이미지 데이터 프로세싱 : https://syeong622.tistory.com/3   
-CNN 모델 설명 : https://syeong622.tistory.com/4   
-장롱 이미지 데이터셋으로 CNN 모델을 학습 후 테스트 데이터로 평가 : https://syeong622.tistory.com/5   
+이미지 데이터로 사용할 장롱 이미지 웹크롤링 : https://syeong622.tistory.com/2    
+이미지 데이터 프로세싱 : https://syeong622.tistory.com/3    
+CNN 모델 설명 : https://syeong622.tistory.com/4    
+장롱 이미지 데이터셋으로 CNN 모델을 학습 후 테스트 데이터로 평가 : https://syeong622.tistory.com/5    
 
 
 ### [AR: Virtual Ruler]
