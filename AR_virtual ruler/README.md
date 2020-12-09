@@ -5,9 +5,10 @@
  이 레포지토리에는 최신버전의 virtual ruler의 **apk파일**만 들어있다. 소스코드는 **Virtual_Ruler 레포지토리**에서 확인할 수 있다. 아래 프로젝트 레포지토리 정리 부분에 링크가 있으니 참고를 바란다.<br/><br/>
  
 # 에코그린 유튜브 채널
+https://www.youtube.com/channel/UCT70bDJj1z-kksHOvijeBCg?view_as=subscriber
  
-## 시연영상 링크
-에코그린 시연영상(DeepLearning + Virtual Ruler + UI) :  <br/><br/>
+# 시연영상 링크
+에코그린 시연영상(DeepLearning + Virtual Ruler + UI) : https://www.youtube.com/watch?v=FPIzbdl9Bik&t=290s   <br/><br/>
  
 # 대형폐기물 배출 안내 어플리케이션
 ## 에코그린 Organization
