@@ -1,5 +1,5 @@
 # Android Studio
- 대형폐기물 배출 안내 어플리케이션 구현 
+ 대형폐기물 배출 안내 어플리케이션 구현   
  android studio UI 구현 레포지토리: https://github.com/hyojin2/Android-Studio   <br/><br/>
  
 # 에코그린 유튜브 채널
