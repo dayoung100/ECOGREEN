@@ -15,6 +15,7 @@ https://www.youtube.com/channel/UCT70bDJj1z-kksHOvijeBCg?view_as=subscriber
 https://github.com/dayoung100/ECOGREEN  
 
 ## 프로젝트 레포지토리 정리
+https://github.com/syoung622/Deep-Learning : 딥러닝 모델  
 https://github.com/hyojin2/Android-Studio : android studio UI 구현  
 https://github.com/dayoung100/Virtual_Ruler : 간단한 Virtual Ruler 구현<br/><br/>
 
