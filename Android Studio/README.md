@@ -5,7 +5,7 @@
 https://www.youtube.com/channel/UCT70bDJj1z-kksHOvijeBCg?view_as=subscriber
  
 # 시연영상 링크
-에코그린 시연영상(DeepLearning + Virtual Ruler + UI) : https://www.youtube.com/watch?v=FPIzbdl9Bik&t=290s   <br/><br/>
+에코그린 시연영상(DeepLearning + Virtual Ruler + UI) : https://youtu.be/FPIzbdl9Bik   <br/><br/>   
  
 # 대형폐기물 배출 안내 어플리케이션
 ## 에코그린 Organization
