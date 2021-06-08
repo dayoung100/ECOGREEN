@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header .logo {
+  float: left;
+}
+
+header .logo img{
+  height: 60px;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+header .hname {
+  float: left;
+  margin-left: 10px;
+}
+
+header .hname p{
+  margin-top: 27px;
+  font-size: 15px;
+  color: #0B3B2E;
+}
+
+header{
+  height: 70px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* container */
+#idx_top {
+  width: 100%;
+  height: 270px;
+  padding-top: 30px;
+  background: url(../img/banner.png) no-repeat 50% 50% /cover;
+  text-align: center;
+}
+
+#idx_top strong{
+  color: #0B3B2E;
+  font-size: 45px;
+}
+
+#idx_top h1{
+  color: #0B3B2E;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+#idx_top p{
+  color: #0B3B2E;
+  font-size: 20px;
+  margin-top: 5px;
+  letter-spacing: -2px;
+}
+
+.board_list_wrap{
+  padding: 50px;
+  align-items: center;
+}
+
+.board_list{
+  width: 100%;
+  border-top: 2px solid #0A2229;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+caption{
+  text-align: center;
+  color: #0A2229;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.board_list th,
+.board_list td{
+  padding: 10px;
+  font-size: 14px;
+}
+
+.board_list td{
+  text-align: center;
+}
+
+.board_list tr{
+  border-bottom: 1px solid #999;
+}
+
+.board_list thead{
+  background: #E0F8E0;
+}
+
+.board_list tbody tr td:nth-child(2){
+  text-align: left;
+}
+
+.board_list .ok{
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 3px;
+  border: 1px solid #088A68;
+  background-color: #FFFFFF;
+  color: #088A68;
+}
+
+.board_list .ok:hover{
+  background-color: #088A68;
+  color: #FFFFFF;
+}
+
+.board_list_wrap .paging{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0px;
+}
+
+.board_list_wrap .paging a{
+  display:inline-block;
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-size: 12px;
+}
+
+.board_list_wrap .paging a.bt{
+  font-weight: 600;
+}
+
+.board_list_wrap .paging a.num{
+  border: 1px solid #FFFFFF;
+  font-weight: 600;
+}
+
+.board_list_wrap .paging a.num:hover{
+  color: #FFFFFF;
+  background-color: #34A08C;
+  border: 1px solid #34A08C;
+}
+
+ul,li{
+  list-style: none;
+}
