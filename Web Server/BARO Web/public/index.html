@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>BARO MANAGE PAGE</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="wrap">
+      <header>
+        <h1 class="logo">
+          <a href="#"><img src="img/logo.png" alt="로고">
+        </h1>
+        <h2 class="hname">
+          <a href="#"><p>BARO 관리자 페이지</p></a>
+        </h2>
+      </header>
+      <div id="container">
+        <div id="idx_top">
+          <strong>BARO</strong>
+          <h1>대형 폐기물 배출 신청</h1>
+          <p>관리자페이지</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="board_list_wrap">
+      <table class="board_list" id="register">
+        <caption>대형 폐기물 배출 신청 목록</caption>
+        <thead>
+          <tr>
+            <th>전화번호</th>
+            <th>신청품목</th>
+            <th>수수료</th>
+            <th>배출일자</th>
+            <th>배출장소</th>
+            <th>처리상태</th>
+            <th>승인처리</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+
+
+    <div class="board_list_wrap">
+      <table class="board_list" id="accept">
+        <caption>대형 폐기물 배출 처리 목록</caption>
+        <thead>
+          <tr>
+            <th>전화번호</th>
+            <th>신청품목</th>
+            <th>수수료</th>
+            <th>배출일자</th>
+            <th>배출장소</th>
+            <th>처리상태</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+      <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-analytics.js"></script>
+
+      <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-database.js"></script>
+      <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+      <script>
+
+      var database;
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyChn5I0jVZg1LqKKR3mQR__y4B-Yyb1DLI",
+        authDomain: "ecogreen-cdfb1.firebaseapp.com",
+        databaseURL: "https://ecogreen-cdfb1.firebaseio.com",
+        projectId: "ecogreen-cdfb1",
+        storageBucket: "ecogreen-cdfb1.appspot.com",
+        messagingSenderId: "162939952789",
+        appId: "1:162939952789:web:f2e3d65bb8458158ca859c",
+        measurementId: "G-GFBB7Y30WK"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+
+      database = firebase.database();
+
+      var phone, item, fee, selectdate, address, state, key;
+      var html;
+
+      function accept_reg(el){
+
+
+        var tr = $(el).parent().parent();
+        var trid = tr.attr('id');
+
+        var updateRef = database.ref('regtb/'+trid);
+
+        updateRef.update({
+          state: 3
+        });
+
+        //push_app();
+        refresh();
+      }
+
+      function refresh(){
+        location.reload();
+      }
+
+/*
+      function push_app(){
+        //push message
+        var admin = require("firebase-admin");
+        var serviceAccount = require("path/to/serviceAccountKey.json");
+
+        admin.initializeApp({
+          credential: admin.credential.cert(serviceAccount),
+          databaseURL: "https://ecogreen-cdfb1.firebaseio.com"
+        });
+
+        var registrationToken = "<등록토큰>";
+
+        //notification message
+
+         var payload = {
+           notification: {
+             title: "승인 완료",
+             body: "대형 폐기물 배출 신청이 승인되었습니다."
+           }
+         };
+
+         //push
+
+         admin.messaging().sendToDevice(registrationToken, payload, options)
+         .then(function(response){
+           console.log("Successfully sent message:", response);
+         })
+         .catch(function(error){
+           console.log("Error sending message:",error);
+         });
+      }
+*/
+
+
+      var tkey;
+
+      function get_regtb(){
+
+        var regtbRef = database.ref('regtb');
+
+        var i=0, tcount=0;
+        var iitem, icount, iclassification,istandard,tcount;
+
+        regtbRef.on('child_added', function(data){
+
+          key = data.key;
+          phone = data.val().phone;
+
+
+          i=0, tcount=0;
+          iitem="item"+i;
+          icount="count"+i;
+          istandard="standard"+i;
+
+          subhtml = "<td>";
+
+          while(data.hasChild(iitem)){
+            item = "data.val().".concat(iitem);
+            item = eval(item);
+            console.log(iitem);
+            console.log(item);
+            count = "data.val().".concat(icount);
+            count = eval(count);
+            console.log(icount);
+            console.log(count);
+
+            tcount=tcount+count;
+            standard = "data.val().".concat(istandard);
+            standard = eval(standard);
+
+            if(standard=="null"){
+              standard=" ";
+            }
+
+            i++;
+            iitem="item"+i;
+            icount="count"+i;
+            istandard="standard"+i;
+
+            isubhtml =" "+item+" "+standard+" "+count+", ";
+
+            console.log(isubhtml);
+
+            subhtml = subhtml + isubhtml;
+
+
+          }
+
+          subhtml = subhtml + "전체 수량: "+ tcount;
+
+          fee = data.val().fee;
+          selectdate = data.val().selectdate;
+          address = data.val().address;
+          state = data.val().state;
+
+
+          if(state==1){
+            html =
+            "<tr id="+key+">"+
+            "<td>"+phone+"</td>"+
+            subhtml+"</td>"+
+            "<td>"+fee+"</td>"+
+            "<td>"+selectdate+"</td>"+
+            "<td>"+address+"</td>"+
+            "<td>신청</td>"+
+            "<td><button type=\"button\" class=\"ok\" onclick=\"accept_reg(this);\">승인</button></td>"+
+            "</tr>";
+
+            $("#register").append(html);
+          }
+
+          else if (state==3) {
+            html =
+            "<tr>"+
+            "<td>"+phone+"</td>"+
+            subhtml+"</td>"+
+            "<td>"+fee+"</td>"+
+            "<td>"+selectdate+"</td>"+
+            "<td>"+address+"</td>"+
+            "<td>승인완료</td>"+
+            "</tr>";
+
+            $("#accept").append(html);
+
+          }
+
+        });
+
+      }
+
+      get_regtb();
+
+
+
+    </script>
+
+
+  </body>
+</html>
