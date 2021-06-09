@@ -75,6 +75,8 @@ Web Server : Google Cloud Platform을 활용한 Flask 서버 구축(딥러닝 �
 ## Reference
 - how to train YOLO v3, v4 for custom objects detection | using colab free GPU    
 https://www.youtube.com/watch?v=hTCmL3S4Obw
+- Inflearn 딥러닝 웹서비스 프로젝트1 - 기본편. Object Detect 불량품 판별
+https://www.inflearn.com/course/%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-1/dashboard
 - Quickstart for Android | ARCore    
 https://developers.google.com/ar/develop/unity/quickstart-android    
 - Explore the HelloAR sample app code | ARCore    
@@ -95,10 +97,10 @@ https://www.youtube.com/watch?v=264FmC9AyYM   <br/><br/>
 
 ## 기술블로그
 ### [Deep Learning]
-[web crawling] 파이썬 selenium 이미지 크롤링 : https://syeong622.tistory.com/2   
-[딥러닝] 이미지 데이터 전처리 : https://syeong622.tistory.com/3   
-[딥러닝] 합성곱 신경망(Convolutional Neural Network, CNN) : https://syeong622.tistory.com/4   
-[딥러닝] 케라스(Keras) CNN을 활용한 장롱 이미지 분류하기 : https://syeong622.tistory.com/5   
+[web crawling] 파이썬 selenium 이미지 크롤링 : https://syeong622.tistory.com/2
+[딥러닝] 이미지 데이터 전처리 : https://syeong622.tistory.com/3
+[딥러닝] 합성곱 신경망(Convolutional Neural Network, CNN) : https://syeong622.tistory.com/4
+[딥러닝] 케라스(Keras) CNN을 활용한 장롱 이미지 분류하기 : https://syeong622.tistory.com/5
 [딥러닝] 이미지넷 데이터로 CNN과 YOLO를 활용하여 장롱 이미지 찾아내기 : https://syeong622.tistory.com/23  
 
 ### [AR: Virtual Ruler]
