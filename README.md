@@ -86,7 +86,11 @@ https://subscription.packtpub.com/video/application_development/9781789537413/70
 - Android Studio(패스트캠퍼스 온라인 강의 - 올인원 패키지: 모바일 앱 개발)    
 https://github.com/changja88   
 - Firebase Android Authentication Tutorial | Login With Google Facebook and OTP in Android   
-https://www.youtube.com/watch?v=_EgsrEmWwR8   <br/><br/>
+https://www.youtube.com/watch?v=_EgsrEmWwR8   
+- Android How to Build Intro Slider for your App   
+https://www.androidhive.info/2016/05/android-build-intro-slider-app/   
+- 안드로이드 영수증 pdf 만들기   
+https://www.youtube.com/watch?v=264FmC9AyYM   <br/><br/>
 
 
 ## 기술블로그
