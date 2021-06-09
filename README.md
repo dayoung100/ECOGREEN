@@ -102,11 +102,7 @@ https://www.youtube.com/watch?v=264FmC9AyYM   <br/><br/>
 [딥러닝] 이미지넷 데이터로 CNN과 YOLO를 활용하여 장롱 이미지 찾아내기 : https://syeong622.tistory.com/23  
 
 ### [AR: Virtual Ruler]
-유니티에서 ARCore 시작하기: https://iszero-tech.tistory.com/1   
-HelloAR: https://iszero-tech.tistory.com/2   
-AR Ruler①: https://iszero-tech.tistory.com/3   
-AR Ruler②: https://iszero-tech.tistory.com/4   
-Virtual Ruler 중간정리: https://iszero-tech.tistory.com/5   
+AR Foundation으로 Virtual Ruler 구현하기: https://iszero-tech.tistory.com/6  
 
 
 ### [Android Studio]
