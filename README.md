@@ -21,10 +21,10 @@ https://www.youtube.com/channel/UCT70bDJj1z-kksHOvijeBCg?view_as=subscriber
 
 
 ## 프로젝트 폴더 설명
-Android Studio : 안드로이드 스튜디오를 활용한 앱 구현 코드
-AR_virtual ruler : 유니티를 활용한 virtual ruler 구현 코드
-Deep Learning : YOLO를 활용한 객체 탐지 모델 구현 코드
-Web Server : Google Cloud Platform을 활용한 Flask 서버 구축(딥러닝 모델 업로드), Node.js, firebase를 활용한 관리자 웹페이지 구현 코드
+Android Studio : 안드로이드 스튜디오를 활용한 앱 구현 코드   
+AR_virtual ruler : 유니티를 활용한 virtual ruler 구현 코드   
+Deep Learning : YOLO를 활용한 객체 탐지 모델 구현 코드   
+Web Server : Google Cloud Platform을 활용한 Flask 서버 구축(딥러닝 모델 업로드), Node.js, firebase를 활용한 관리자 웹페이지 구현 코드  
 
 
 ## 시나리오 설계
@@ -108,7 +108,7 @@ Firebase 프로젝트 생성: https://jeeny-yap.tistory.com/9
 Firebase 프로젝트 연결: https://jeeny-yap.tistory.com/10   
 Firebase를 활용한 인증 구현 및 계정설정 기능: https://jeeny-yap.tistory.com/12   
 메인 홈 화면 및 DISUSE 화면 구성: https://jeeny-yap.tistory.com/13
-[Kotlin으로 앱 개발하기] Custom Listview를 이용하여 다양한 정보를 리스트로 보여주기: https://jeeny-yap.tistory.com/14 <br/><br/>
+[Kotlin으로 앱 개발하기] Custom Listview를 이용하여 다양한 정보를 리스트로 보여주기: https://jeeny-yap.tistory.com/14    <br/><br/>
 
 
 ## 오픈소스 라이선스
