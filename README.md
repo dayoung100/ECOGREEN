@@ -21,9 +21,9 @@ https://www.youtube.com/channel/UCT70bDJj1z-kksHOvijeBCg?view_as=subscriber
 
 
 ## 프로젝트 폴더 설명
-Android Studio : 안드로이드 스튜디오를 활용한 앱 구현 코드   
-AR_virtual ruler : 유니티를 활용한 virtual ruler 구현 코드   
-Deep Learning : YOLO를 활용한 객체 탐지 모델 구현 코드   
+Android Studio : 안드로이드 스튜디오를 활용한 앱 구현 코드    
+AR_virtual ruler : 유니티를 활용한 virtual ruler 구현 코드      
+Deep Learning : YOLO를 활용한 객체 탐지 모델 구현 코드    
 Web Server : Google Cloud Platform을 활용한 Flask 서버 구축(딥러닝 모델 업로드), Node.js, firebase를 활용한 관리자 웹페이지 구현 코드  
 
 
