@@ -107,7 +107,8 @@ Virtual Ruler 중간정리: https://iszero-tech.tistory.com/5
 Firebase 프로젝트 생성: https://jeeny-yap.tistory.com/9   
 Firebase 프로젝트 연결: https://jeeny-yap.tistory.com/10   
 Firebase를 활용한 인증 구현 및 계정설정 기능: https://jeeny-yap.tistory.com/12   
-메인 홈 화면 및 DISUSE 화면 구성: https://jeeny-yap.tistory.com/13   <br/><br/>
+메인 홈 화면 및 DISUSE 화면 구성: https://jeeny-yap.tistory.com/13
+[Kotlin으로 앱 개발하기] Custom Listview를 이용하여 다양한 정보를 리스트로 보여주기: https://jeeny-yap.tistory.com/14 <br/><br/>
 
 
 ## 오픈소스 라이선스
