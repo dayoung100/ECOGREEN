@@ -97,10 +97,10 @@ https://www.youtube.com/watch?v=264FmC9AyYM   <br/><br/>
 
 ## 기술블로그
 ### [Deep Learning]
-[web crawling] 파이썬 selenium 이미지 크롤링 : https://syeong622.tistory.com/2
-[딥러닝] 이미지 데이터 전처리 : https://syeong622.tistory.com/3
-[딥러닝] 합성곱 신경망(Convolutional Neural Network, CNN) : https://syeong622.tistory.com/4
-[딥러닝] 케라스(Keras) CNN을 활용한 장롱 이미지 분류하기 : https://syeong622.tistory.com/5
+[web crawling] 파이썬 selenium 이미지 크롤링 : https://syeong622.tistory.com/2<br/>
+[딥러닝] 이미지 데이터 전처리 : https://syeong622.tistory.com/3<br/>
+[딥러닝] 합성곱 신경망(Convolutional Neural Network, CNN) : https://syeong622.tistory.com/4<br/>
+[딥러닝] 케라스(Keras) CNN을 활용한 장롱 이미지 분류하기 : https://syeong622.tistory.com/5<br/>
 [딥러닝] 이미지넷 데이터로 CNN과 YOLO를 활용하여 장롱 이미지 찾아내기 : https://syeong622.tistory.com/23  
 
 ### [AR: Virtual Ruler]
